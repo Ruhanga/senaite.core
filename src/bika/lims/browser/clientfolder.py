@@ -72,7 +72,8 @@ class ClientFolderContentsView(BikaListingView):
                 "title": _("Name"),
                 "index": "sortable_title"},),
             ("getClientID", {
-                "title": _("Client ID")}),
+                "title": _("Client ID"),
+                "index": "getClientID",}),
             ("EmailAddress", {
                 "title": _("Email Address"),
                 "sortable": False}),

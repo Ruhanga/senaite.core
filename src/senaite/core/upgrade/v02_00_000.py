@@ -82,6 +82,8 @@ UNINSTALL_PRODUCTS = [
 INDEXES_TO_ADD = [
     # List of tuples (catalog_name, index_name, index meta type)
     (SETUP_CATALOG, "department_id", "KeywordIndex"),
+
+    ("portal_catalog", "getClientID", "KeywordIndex"),
 ]
 
 INDEXES_TO_REMOVE = [
