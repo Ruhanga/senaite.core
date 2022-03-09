@@ -27,6 +27,9 @@
   <index name="analysisRequestTemplates" meta_type="FieldIndex">
     <indexed_attr value="analysisRequestTemplates"/>
   </index>
+  <index name="getClientID" meta_type="FieldIndex">
+    <indexed_attr value="getClientID"/>
+  </index>
   <column value="analysisRequestTemplates"/>
   <column value="review_state"/>
   <column value="getClientID"/>
