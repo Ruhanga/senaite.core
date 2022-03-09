@@ -192,6 +192,7 @@ INDEXES = (
 
     ("portal_catalog", "Analyst", "", "FieldIndex"),
     ("portal_catalog", "sample_uid", "", "KeywordIndex"),
+    ("portal_catalog", "getClientID", "", "FieldIndex"),
 )
 
 COLUMNS = (
@@ -233,6 +234,7 @@ COLUMNS = (
     ("bika_setup_catalog", "getKeyword"),
 
     ("portal_catalog", "Analyst"),
+    ("portal_catalog", "getClientID"),
 )
 
 ALLOWED_STYLES = [
