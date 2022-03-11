@@ -55,7 +55,7 @@ from senaite.core.workflow import SAMPLE_WORKFLOW
 from senaite.core.workflow import WORKSHEET_WORKFLOW
 from zope.interface import noLongerProvides
 
-version = "2.0.0"  # Remember version number in metadata.xml and setup.py
+version = "2.0.0rc3"  # Remember version number in metadata.xml and setup.py
 profile = "profile-{0}:default".format(product)
 
 REMOVE_AT_TYPES = [
@@ -82,6 +82,7 @@ UNINSTALL_PRODUCTS = [
 INDEXES_TO_ADD = [
     # List of tuples (catalog_name, index_name, index meta type)
     (SETUP_CATALOG, "department_id", "KeywordIndex"),
+    ("portal_catalog", "getClientID", "", "FieldIndex"),
 ]
 
 INDEXES_TO_REMOVE = [
